@@ -1,0 +1,8 @@
+Structural Metric,User-User Projection,Item-Item Projection
+Total Nodes,"153,836","76,078"
+Shared-Neighbor Edges,"2,084,040","1,336,703"
+Graph Density,0.000176,0.000462
+Mean Degree,27.09,35.14
+Max Degree,"8,465","3,230"
+Connected Nodes (%),80.79%,48.20%
+Stored Non-Zeros (nnz),"4,321,916","2,749,484"

@@ -98,12 +98,12 @@ Both matrices contain 213,066 non-zero interaction values out of over 11.7 billi
 #### User-User Graph Projection ($\mathcal{G}_U$)
 Constructed via unweighted bipartite projection where visitors are connected if they interacted with at least one shared item:
 
-![User-User Projected Graph](docs/user_vsm_projection.png)
+![User-User Projected Graph](output/user_vsm_projection.png)
 
 #### Item-Item Graph Projection ($\mathcal{G}_I$)
 Constructed via unweighted bipartite projection where products are connected if co-interacted by identical shoppers:
 
-![Item-Item Projected Graph](docs/item_vsm_projection.png)
+![Item-Item Projected Graph](output/item_vsm_projection.png)
 
 ### Empirical Full-Graph Projection Comparison
 To compare both projections at macro scale across the entire 265,509 training events, we executed sparse boolean matrix multiplications:
@@ -159,7 +159,7 @@ LIMIT 5;
 
 Augmenting the bipartite graph with `[:SIMILAR]` edges transforms the topological family from a pure 2-mode bipartite graph into a multi-relational hybrid network:
 
-![Before vs After Similarity](docs/graph_before_after.png)
+![Before vs After Similarity](output/graph_before_after.png)
 
 | Topological Dimension | Condition BEFORE Similarity | Condition AFTER Similarity | Engineering Significance |
 |:---|:---|:---|:---|
@@ -209,7 +209,7 @@ The recommender system placed Item ID **`65580`** at **Rank 1**:
 ### Macro Cohort Benchmark Evaluation (100 Active Users)
 To demonstrate system generalizability, 100 returning active users were evaluated against a global Popularity Baseline:
 
-![Cohort Benchmark Evaluation](docs/recommender_cohort_benchmark.png)
+![Cohort Benchmark Evaluation](output/recommender_cohort_benchmark.png)
 
 | Recommendation Model | Evaluated Users | Mean Hit@5 | Mean NDCG@5 | Performance Advantage |
 |:---|:---:|:---:|:---:|:---:|
@@ -268,7 +268,17 @@ MidTerm-GDS/
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
-├── docs/
+├── output/
+│   ├── run_metadata.json
+│   ├── user_item_vsm_sparse_matrix.npz
+│   ├── partition_summary_p1_p2.csv
+│   ├── subgraph_node_composition.csv
+│   ├── subgraph_relationship_composition.csv
+│   ├── vsm_full_projection_comparison.csv
+│   ├── top5_similar_visitors.csv
+│   ├── top3_advertised_recommendations.csv
+│   ├── quantitative_evaluation_user36281.csv
+│   ├── cohort_benchmark_summary.csv
 │   ├── user_vsm_projection.png
 │   ├── item_vsm_projection.png
 │   ├── graph_before_after.png

@@ -1,0 +1,12 @@
+Partition Metric,Period 1 (Training),Period 2 (Testing)
+Date Range,2015-08-01 to 2015-08-15,2015-08-16 to 2015-08-20
+Duration (Days),15,5
+Duration Proportion (%),75.0%,25.0%
+Total Interaction Records,265509,95404
+Unique Visitors,153836,55754
+Unique Items,76078,39601
+View Events,256371,91897
+AddToCart Events,7047,2592
+Transaction Events,2091,915
+Cross-Period Overlapping Visitors,3497,3497
+Cross-Period Overlapping Items,24905,24905

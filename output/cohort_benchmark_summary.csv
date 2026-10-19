@@ -1,0 +1,3 @@
+Recommendation Model,Evaluated Users,Mean Hit@5,Mean NDCG@5
+KNN Collaborative Filtering (K=5),100,0.0200,0.0086
+Popularity Baseline,100,0.0000,0.0000

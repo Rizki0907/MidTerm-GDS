@@ -1,0 +1,15 @@
+{
+  "project": "Graph Data Science Midterm Exam",
+  "student_name": "Rizki Piji Fathoni",
+  "student_id": "24031554029",
+  "course": "Graph Data Science (Graf Sains Data)",
+  "training_period": "2015-08-01 to 2015-08-15 (75%)",
+  "testing_period": "2015-08-16 to 2015-08-20 (25%)",
+  "target_user_id": 36281,
+  "top_advertised_item": 65580,
+  "single_user_hit_at_5": 1.0,
+  "single_user_ndcg_at_5": 0.3392,
+  "cohort_users_evaluated": 100,
+  "cohort_knn_mean_hit_at_5": 0.02,
+  "cohort_knn_mean_ndcg_at_5": 0.0086
+}
