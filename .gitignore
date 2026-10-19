@@ -1,0 +1,35 @@
+# Environment & Virtual Environments
+myvenv/
+env/
+venv/
+.venv/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Jupyter Notebook Checkpoints & Cache
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Security & Guidelines (Strict Rule: Must NEVER be pushed to GitHub)
+agents.md
+*agents.md
+
+# Large Raw Datasets (>100MB exceeds GitHub push limit)
+Data/events.csv
+Data/item_properties_part1.csv
+Data/item_properties_part2.csv
+Data/category_tree.csv
+Data/*.zip
+*.zip
+
+# Temporary & Working Files
+extracted_uts_pdf.txt
+scratch/
+*.log
+.tempmediaStorage/
