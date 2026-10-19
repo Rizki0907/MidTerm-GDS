@@ -19,6 +19,9 @@ __pycache__/
 # Security & Guidelines (Strict Rule: Must NEVER be pushed to GitHub)
 agents.md
 *agents.md
+UTS_*.ipynb
+*159*.ipynb
+*.xlsx
 
 # Large Raw Datasets (>100MB exceeds GitHub push limit)
 Data/events.csv
