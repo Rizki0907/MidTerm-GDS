@@ -3,7 +3,7 @@ Target Visitor ID,36281
 Number of P1 Training Interactions,16
 Number of P2 Ground Truth Items,8
 Top-5 Recommendations,"[65580, 297974, 30167, 292418, 30765]"
-P2 Ground Truth Items Set,"[36194, 94629, 65580, 254415, 40528, 446454, 438234, 315196]"
+P2 Ground Truth Items Set,"[np.int64(36194), np.int64(94629), np.int64(65580), np.int64(254415), np.int64(40528), np.int64(446454), np.int64(438234), np.int64(315196)]"
 Binary Hit at 5 (Hit@5),1.0000
 Discounted Cumulative Gain (DCG@5),1.0000
 Ideal DCG (IDCG@5),2.9485

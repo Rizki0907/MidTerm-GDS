@@ -1,4 +1,4 @@
-Rank,Item ID,Recommendation Score,Source
-1,65580,0.3405,KNN Collaborative Filtering
-2,297974,0.323,KNN Collaborative Filtering
-3,30167,0.323,KNN Collaborative Filtering
+Rank,Item ID,Recommendation Score
+1,65580,0.3405
+2,297974,0.3230
+3,30167,0.3230
